@@ -23,6 +23,11 @@ public class HW_3 {
         if (count > 0) {//Чтобы в случае если sum был равен нулю то тогда не выдовало ошибку
             double average = sum / count;
             System.out.println("Cреднее арифметическое = " + average);
+
+
+            }
+        else{
+            System.out.println("Нету положительных чисел");
         }
 
 
